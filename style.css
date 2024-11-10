@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+table{
+    border: 2px double;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(54, 168, 221);
+    color: white;
+    border-radius: 0px;
+    border: 2px solid black;
+    margin: 0px;
+}
+.header-img{
+  width: 10px;
+  height: 20px;
+  margin-right: 50px;
+  padding-right: 50px;
+   align-items: flex-start;
+}
+
+
+
+.logo {
+    height: 60px; /* Adjust as needed */
+    width: 60px; /* Adjust as needed */
+}
+
+.welcome {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+.nav-links {
+   
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.image-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.image-section img {
+    width: 90%; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+    height: 80%;
+}
+h1{
+    text-align: center;
+   
+
+}
+a{
+    text-align: center;
+  
+    height: 4px;
+
+}
+  
+  span{
+    background-color: aquamarine;
+    text-align: start;
+  }  
+
+.home-content {
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #4CAF50; /* Green border */
+    margin: 20px auto;
+    max-width: 800px; /* Adjust as needed */
+    border-radius: 5px;
+    font-weight: 800;
+    
+}
+.about-content{
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #4CAF50; /* Green border */
+    margin: 20px auto;
+    max-width: 800px; /* Adjust as needed */
+    border-radius: 5px;
+    font-weight: 800;
+}
+.contact-content{
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #4CAF50; /* Green border */
+    margin: 20px auto;
+    max-width: 800px; /* Adjust as needed */
+    border-radius: 5px;
+    font-weight: 800;
+}
+.service-content{
+    display: flex;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #4CAF50; /* Green border */
+    margin: 20px auto;
+    max-width: 800px; /* Adjust as needed */
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+
+.row-container{
+    display: flex;
+    gap: 20px; /* Space between the sections */
+    justify-content: space-around; /* Centers the sections */
+   border: 2px solid;
+}
+button{
+    border: #333 solid;
+    border-radius: 4px;
+    align-items: center;
+    border: 2px solid #4CAF50;
+}
+p{
+    text-align: center;
+   
+}
+.medicine-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: left;
+    
+}
+
+.medicine-table h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+td {
+    background-color: #fff;
+}
+
+body tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row color */
+}
+
+footer {
+    background-color: #333;
+    color: white;;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3{
+    text-align: center;
+    background-color: deeppink;
+}
+/* Center the form container */
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Centers the form vertically */
+    background-color: #f9f9f9;
+    height: 50px;
+}
+form{
+    border: 4px solid ;
+    margin: 40px;
+    padding: 20px;
+    background-color: #6eff73;
+}
